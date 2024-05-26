@@ -1,0 +1,35 @@
+/* write your css here */
+
+.settingsBtn{
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.4s;
+}
+
+.settingsBtn:hover{
+    background-color: rgba(255,255,255,0.2);
+    scale: 1.05;
+}
+
+.slider{
+    height: 40px;
+    border: 2px solid #f54e4e;
+    border-radius: 20px;
+    background-color: #2C333F;
+}
+
+.thumb{
+    background-color: #f54e4e;
+    cursor: pointer;
+    width: 40px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+
+.slider.green{
+    border: 2px solid #4aec8c;
+}
+
+.slider.green .thumb{
+   background-color: #4aec8c;
+}
